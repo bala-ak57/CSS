@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+.circle{
+    margin: 170px 340px;
+    width: 200px;
+    height: 200px;
+    border: 15px solid;
+    border-radius: 200px;
+    position: absolute;
+}
+.one{
+    border-color: #007AC9;
+}
+.two{
+    left: 210px;
+}
+.three{
+    border-color: #E10E49;
+    left: 420px;
+}
+.four{
+    border-color: #FFA100;
+    top: 85px;
+    left: 105px;
+}
+.five{
+    border-color: #009b3a;
+    top: 85px;
+    left: 320px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flex Exercise</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div{
+            background-color: #232288;
+            padding: 10px;
+        }
+        header{
+            width: 100%;
+            height: 40px;
+            background-color: white;
+            text-align: center;
+          }
+          ol{
+            display: flex;
+            list-style-type: none;
+            justify-content: space-evenly;
+            padding-top: 20px;
+          }
+          .page{
+            background-color: #bbbabc;
+            padding: 5px;
+            font-size: 20px;
+            font-weight: 500;
+            margin-right: 20px;
+          }
+          a{
+            color: black;
+          }
+          .two{
+            background-color: white;
+          }
+          section{
+            background-color: white;
+            padding: 10px;
+
+          }
+          ul{
+            margin-left: 60px;
+          }
+          li :hover{
+            background-color: white;
+          }
+    </style>
+</head>
+<body>
+    <div>
+        <header><h1>Sample Menu Page</h1></header>
+        <nav>
+            <ol>
+                <li class="page one"><a href="#">Page One</a></li>
+                <li class="page two"><a href="#">Page two</a></li>
+                <li class="page three"><a href="#">Page three</a></li>
+                <li class="page four"><a href="#">Page four</a></li>
+                <li class="page five"><a href="#">Page five</a></li>
+            </ol>
+        </nav>
+        <section>
+            <h2>First Section</h2><br>
+            <p>This is the first part of real content of the page.<br><br>
+            This exercise is mostly about:</p><br>
+            <ul>
+                <li><abbr title="Cascading Style Sheet">CSS</abbr> </li>
+                <li>geese</li>
+            </ul>
+        </section>
+    </div>
+    
+</body>
+</html>

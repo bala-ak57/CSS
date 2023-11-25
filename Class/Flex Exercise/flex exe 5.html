@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flex Exercise</title>
+    <style>
+        body{
+            background-color: #e9e7e7;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1{
+            text-align: center;
+            padding-top: 20px;
+            font-weight: 900;
+            height: 90px;
+            background-color: #d9f1f9;
+            margin-right: 20px;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            padding: 10px;
+        }
+        .first{
+            width: calc(100%);
+
+        }
+        .second{
+            width: calc(100%/2);
+
+        }
+        .third{
+            width: calc(100%/3);
+        }
+        .fourth{
+            width: calc(100%/4);
+        }
+        .sixth{
+            width: calc(100%/1.5);
+        }
+        .seventh{
+            width: calc(100%/6);
+        }
+        .eigth{
+            width: calc(100%/12);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="container one">
+            <div class="first"><h1>12</h1></div>
+        </div>
+        <div class="container two">
+            <div class="second"><h1>6</h1></div>
+            <div class="second"><h1>6</h1></div>
+        </div>
+        <div class="container three">
+            <div class="third"><h1>4</h1></div>
+            <div class="third"><h1>4</h1></div>
+            <div class="third"><h1>4</h1></div>
+        </div>
+        <div class="container four">
+            <div class="fourth"><h1>3</h1></div>
+            <div class="fourth"><h1>3</h1></div>
+            <div class="fourth"><h1>3</h1></div>
+            <div class="fourth"><h1>3</h1></div>
+        </div>
+        <div class="container five">
+            <div class="third"><h1>4</h1></div>
+            <div class="sixth"><h1>8</h1></div>
+        </div>
+        <div class="container six">
+            <div class="sixth"><h1>8</h1></div>
+            <div class="third"><h1>4</h1></div>
+        </div>
+        <div class="container seven">
+            <div class="seventh"><h1>2</h1></div>
+            <div class="seventh"><h1>2</h1></div>
+            <div class="seventh"><h1>2</h1></div>
+            <div class="seventh"><h1>2</h1></div>
+            <div class="seventh"><h1>2</h1></div>
+            <div class="seventh"><h1>2</h1></div>
+        </div>
+        <div class="container eight">
+            <div class="eigth"><h1>1</h1></div>
+            <div class="eigth"><h1>1</h1></div>
+            <div class="eigth"><h1>1</h1></div>
+            <div class="eigth"><h1>1</h1></div>
+            <div class="eigth"><h1>1</h1></div>
+            <div class="eigth"><h1>1</h1></div>
+            <div class="eigth"><h1>1</h1></div>
+            <div class="eigth"><h1>1</h1></div>
+            <div class="eigth"><h1>1</h1></div>
+            <div class="eigth"><h1>1</h1></div>
+            <div class="eigth"><h1>1</h1></div>
+            <div class="eigth"><h1>1</h1></div>
+        </div> 
+    </div>
+    
+</body>
+</html>

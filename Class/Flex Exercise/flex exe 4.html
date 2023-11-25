@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flex Exercise</title>
+    <style>
+        body{
+            background-color: #f8f7f5;
+        }
+        p{
+            text-align: center;
+            padding-top: 36px;
+            font-weight: 900;
+            font-size: medium;
+            margin-right: 10px;
+            margin-left: 10px;
+            background-color: #b3c5d1;
+            box-shadow: 1px 1px black;
+            box-sizing: border-box;
+            height: 90px;
+        }
+        .container{
+            display: flex;
+            width: 100%;
+            box-sizing: border-box;
+            flex-wrap: wrap;
+        }
+        .first{
+            width: calc(100%/12);
+        }
+        .second{
+            width: calc(100%/6);
+        }
+        .third{
+            width: calc(100%/4);
+
+        }
+        .fourth{
+            width: calc(100%/3);
+
+        }
+        .sixth{
+            width: calc(100%/2);
+
+        }
+        .eight{
+            width: calc(100%/1.5);
+
+
+        }
+        .twelve{
+            width: calc(100%);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="container one">
+            <div class="first"><p>1</p></div>
+            <div class="first"><p>1</p></div>
+            <div class="first"><p>1</p></div>
+            <div class="first"><p>1</p></div>
+            <div class="first"><p>1</p></div>
+            <div class="first"><p>1</p></div>
+            <div class="first"><p>1</p></div>
+            <div class="first"><p>1</p></div>
+            <div class="first"><p>1</p></div>
+            <div class="first"><p>1</p></div>
+            <div class="first"><p>1</p></div>
+            <div class="first"><p>1</p></div>
+        </div>
+        <div class="container two">
+            <div class="second"><p>2</p></div>
+            <div class="second"><p>2</p></div>
+            <div class="second"><p>2</p></div>
+            <div class="second"><p>2</p></div>
+            <div class="second"><p>2</p></div>
+            <div class="second"><p>2</p></div>
+        </div>
+        <div class="container three">
+            <div class="third"><p>3</p></div>
+            <div class="third"><p>3</p></div>
+            <div class="third"><p>3</p></div>
+            <div class="third"><p>3</p></div>
+        </div>
+        <div class="container four">
+            <div class="fourth"><p>4</p></div>
+            <div class="fourth"><p>4</p></div>
+            <div class="fourth"><p>4</p></div>
+        </div>
+        <div class="container five">
+            <div class="sixth"><p>6</p></div>
+            <div class="sixth"><p>6</p></div>
+        </div>
+        <div class="container six">
+            <div class="fourth"><p>4</p></div>
+            <div class="eight"><p>8</p></div>
+        </div>
+        <div class="container seven">
+            <div class="twelve"><p>12</p></div>
+        </div>
+    </div>
+    
+</body>
+</html>

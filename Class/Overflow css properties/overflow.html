@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Overflow</title>
+    <style>
+        .of{
+            width: 200px;
+            height: 70px;
+            border: 2px solid green;
+            background-color: aqua;
+            padding: 15px;
+            float: left;
+            margin: 50px 0 0 20px;
+        }
+        .one{
+            overflow: visible;
+            outline: 5px dashed red;
+            border-radius: 5px 100px;
+        }
+        .two{
+            overflow: hidden;
+            outline: 5px dashed red;
+            outline-offset: 3px;
+        }
+        .three{
+            overflow: scroll;
+            width: 100px;
+        }
+        .four{
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="of one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur dolore voluptatum fugit dolores vitae at. Architecto, tempore? Nihil in vel non hic molestiae similique tempore? Exercitationem et iusto delectus!</div>
+    <div class="of two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur dolore voluptatum fugit dolores vitae at. Architecto, tempore? Nihil in vel non hic molestiae similique tempore? Exercitationem et iusto delectus!</div>
+    <div class="of three">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia veniam perferendis, blanditiis pariatur ut debitis nostrum aliquam velit! Voluptate, tempora. Dolor libero dolore saepe eos fuga molestias nam sed dolorem!</div>
+    <div class="of four">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam natus quidem corrupti, magnam saepe aspernatur accusamus distinctio nesciunt minima repellat tempora quae numquam dicta assumenda consequatur tenetur aliquid sunt! Minus!</div>
+    <div class="of five">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, distinctio maiores commodi vitae eos quibusdam deleniti sit aperiam velit sint, labore expedita cumque adipisci exercitationem in totam, praesentium eveniet rerum.</div>
+    
+</body>
+</html>
